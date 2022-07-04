@@ -1,0 +1,16 @@
+/**
+*SCSS helpers for developers
+*/
+
+@import 'helpers/variables';
+@import 'helpers/mixins';
+
+/**
+* Website partial styles
+*/
+
+@import 'partials/base';
+@import 'partials/content';
+@import 'partials/footer';
+@import 'partials/header';
+@import 'helpers/media';

@@ -1,0 +1,11 @@
+@mixin bp($breakpoint) {
+    @media screen and (min-width: $breakpoint) {
+        @content;
+    }
+}
+
+@mixin bp-max($breakpoint) {
+    @media screen and (max-width: $breakpoint) {
+        @content;
+    }
+}
