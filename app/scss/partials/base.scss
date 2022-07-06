@@ -28,8 +28,9 @@ body {
     height: 100%;
     width: 100%;
     font-family: $top-font;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 26px;
     background: #fdfcfc;
     color: #272d38;
     -ms-text-size-adjust: 100%;
@@ -97,7 +98,7 @@ h6 {
     }
 }
 
-.btn {
+.header__btn {
     display: flex;
     justify-content: space-between;
     width: 172px;
@@ -118,11 +119,11 @@ h6 {
     }
 }
 
-.btn:hover {
+.header__btn:hover {
     background: #4e69d9;
 }
 
-.btn:active {
+.header__btn:active {
     background: #6f85de;
 }
 
