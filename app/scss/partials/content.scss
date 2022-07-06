@@ -1,9 +1,12 @@
 .hero {
-    .hero__row {
-        display: flex;
-        .hero__content {
-            .hero__btn {
-                display: flex;
+    .container {
+        max-width: 1224px;
+        margin: 0 auto;
+        .row {
+            .hero__content {
+                .hero__btn {
+                    display: flex;
+                }
             }
         }
     }
