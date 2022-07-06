@@ -1,8 +1,10 @@
-.hero{
-    .row{
-        
-        .hero__content{
-
+.hero {
+    .hero__row {
+        display: flex;
+        .hero__content {
+            .hero__btn {
+                display: flex;
+            }
         }
     }
 }
