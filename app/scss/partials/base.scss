@@ -86,10 +86,22 @@ h6 {
 
 #h1 {
     font-weight: 700;
-    font-size: 64px;
-    line-height: 72px;
+    font-size: 33px;
+    line-height: 40px;
     letter-spacing: -1.16px;
+    text-transform: capitalize;
+    text-align: center;
     color: $top-color;
+    @include bp($sm) {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    @include bp($md) {
+        font-size: 64px;
+        line-height: 72px;
+        text-align: left;
+    }
+    @include bp-max($md) {}
 }
 
 .h3 {}
